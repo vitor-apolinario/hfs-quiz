@@ -129,6 +129,37 @@ export const quiz =  {
       "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
       "explanation": "A capacidade de transporte da ferrovia permitiu que fossem construídas grandes serrarias e madeireiras na região, onde haviam muitos pinheiros, que garantiram matéria-prima para muitos anos. O pinheiro foi tão explorado que hoje são necessárias leis para proteger está árvore de nossa região.",
       "point": "20"
-    },   
+    },
+    {
+      "question": "Os monges presentes na região do contestado eram muito influentes entre a população local. Quais eram os motivos de sua fama?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "Milagres e Curas que realizavam",
+        "Previsões que faziam",
+        "O dinheiro que tinham",
+        "As suas habilidades de luta"
+      ],
+      "correctAnswer": [1, 2],
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "Os monges passaram a ser famosos pelos seus milagres e profecias. Eles receitavam remédios, benzian e aconcelhavam as pessoas.",
+      "point": "20"
+    },
+    {
+      "question": "O que aconteceu com o monge José Maria?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Foi morto na batalha de Irani",
+        "Sumiu na batalha de Irani e nunca mais foi encontrado",
+        "Rendeu-se aos inimigos ao final da guerra",
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "O monge José Maria morreu na batalha que marcou o início da Guerra do Contestado, a de Irani, no ano de 1912. Seus companheiros acreditavam que José Maria, por ser santo, iria ressuscitar, o que não ocorreu.",
+      "point": "20"
+    }, 
   ]
 }
