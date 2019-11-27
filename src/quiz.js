@@ -50,5 +50,53 @@ export const quiz =  {
         "explanation": "Esta foto é de um Grupo de vaqueanos (milícia armada privada) que defendia madeireira de ataques de revoltosos na Guerra do Contestado.",
         "point": "20"
       },
+      {
+        "question": "A região Contestada tem esse nome por causa da disputa entre dois estados da região Sul do Brasil, a região fica entre 2 rios o Uruguai na direção sul e o Iguaçu ao norte. Qual o nome do estado em que fica a Região do Contestado?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "São Paulo",
+          "Bahia",
+          "Santa Catarina",
+          "Goias"
+        ],
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Os estados em disputa eram Paraná e Santa Catarina, a região oeste desse está entre os rios em questão",
+        "point": "20"
+      },
+      {
+        "question": "Vestigíos indicam a presença de alguns povos na região catarinense desde 10 mil anos atrás e a partir do século XVI, espanhóis e portugueses percorreram e deixaram seus descendentes. Quais os povos que habitavam a região?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Indígenas e caboclos",
+          "Asiáticos",
+          "Europeus",
+          "Canadenses e mexicanos"
+        ],
+        "correctAnswer": "1",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Os indígenas há muito povoam a ameríca e o povo resultante da miscegenação de diferentes povos na região é chamado de caboclo",
+        "point": "20"
+      },
+      {
+        "question": "A população local sobrevivia principalmente da subsistência, plantavam para comer e não para vender, os alimentos são típicos até hoje nas casas catarinenses. Quais são esses alimentos?",
+        "questionType": "text",
+        "answerSelectionType": "single",
+        "answers": [
+          "Tapioca, acarajé e vatapá",
+          "Frutos do mar e sushi",
+          "Macarrão, pizza e lasanha",
+          "Milho, abóbora, porco e erva-mate"
+        ],
+        "correctAnswer": "4",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Trandicionalmente catarinenses tem o costume de comer alimentos vindos do milho, abóbora e porco e beber o chimarrão com erva-mate",
+        "point": "20"
+      },
     ]
-  } 
+  }
