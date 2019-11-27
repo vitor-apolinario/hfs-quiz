@@ -1,96 +1,53 @@
 export const quiz =  {
-    "quizTitle": "React Quiz Component Demo",
-    "quizSynopsis": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim",
+    "quizTitle": "Guerra do Contestado - Quiz",
+    "quizSynopsis": "A Guerra do Contestado foi um conflito armado que envolveu posseiros e pequenos proprietários de terras, de um lado, e representantes dos poderes estadual e federal brasileiro, de outro, entre outubro de 1912 e agosto de 1916",
     "questions": [
       {
-        "question": "How can you access the state of a component from inside of a member function?",
+        "question": "Na região do Contestado havia interesse do governo brasileiro na ocupação do território, o que levou a um intenso movimento de colonização na região, vindo imigrantes de diversos países. De quais países vieram a maioria dos imigrantes? ",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "this.getState()",
-          "this.prototype.stateValue",
-          "this.state",
-          "this.values"
+          "Colômbia, Bolívia e Paraguai",
+          "Itália, Alemanha e Polônia",
+          "Estados Unidos, Canadá e México",
+          "Argentina, África do Sul e China"
         ],
-        "correctAnswer": "3",
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "correctAnswer": "2",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Por meio de Companhias colonizadoras chegaram nesta região imigrantes, vindos principalmente da Itália, Alemanha e Polônia além de outros países Europeus.",
         "point": "20"
       },
       {
-        "question": "ReactJS is developed by _____?",
+        "question": " Com a colonização em massa acontecendo, os sertanejos que foram despejados de suas terras, juntaram-se ao redor de um monge que exercia práticas anteriormente realizadas por João Maria. Como era o nome desse novo monge?",
         "questionType": "text",
         "answerSelectionType": "single",
         "answers": [
-          "Google Engineers",
-          "Facebook Engineers"
+          "João Maria II",
+          "Jean Marios",
+          "José Maria",
+          "Julio Maria"
         ],
-        "correctAnswer": "2",
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "correctAnswer": "3",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Os sertanejos juntaram-se em torno de José Maria e foi assim que se principiou a revolta que gerou a Guerra do Contestado.",
         "point": "20"
       },
       {
-        "question": "ReactJS is an MVC based framework?",
-        "questionType": "text",
-        "answerSelectionType": "single",
-        "answers": [
-          "True",
-          "False"
-        ],
-        "correctAnswer": "2",
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "10"
-      },
-      {
-        "question": "Which of the following concepts is/are key to ReactJS?",
-        "questionType": "text",
-        "answerSelectionType": "single",
-        "answers": [
-          "Component-oriented design",
-          "Event delegation model",
-          "Both of the above",
-        ],
-        "correctAnswer": "3",
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "30"
-      },
-      {
-        "question": "Lorem ipsum dolor sit amet, consectetur adipiscing elit,",
+        "question": "Qual dessas imagens é sobre/da Guerra do Contestado?",
         "questionType": "photo",
         "answerSelectionType": "single",
         "answers": [
-          "https://dummyimage.com/600x400/000/fff&text=A",
-          "https://dummyimage.com/600x400/000/fff&text=B",
-          "https://dummyimage.com/600x400/000/fff&text=C",
-          "https://dummyimage.com/600x400/000/fff&text=D"
+          "https://www12.senado.leg.br/noticias/materias/2016/07/01/ha-100-anos-o-fim-da-sangrenta-guerra-do-contestado/imagem_materia.jpg/@@images/image/imagem_materia",
+          "https://www.sohistoria.com.br/ef2/revolucaofarroupilha/index_clip_image002.jpg",
+          "https://upload.wikimedia.org/wikipedia/commons/f/fa/Canudos_rebels.jpg",
+          "https://historiadobrasil546861720.files.wordpress.com/2017/11/guerra-guaranitica.jpg"
         ],
         "correctAnswer": "1",
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-        "point": "20"
-      },
-      {
-        "question": "What are the advantages of React JS?",
-        "questionType": "text",
-        "answerSelectionType": "multiple",
-        "answers": [
-          "React can be used on client and as well as server side too",
-          "Using React increases readability and makes maintainability easier. Component, Data patterns improves readability and thus makes it easier for manitaining larger apps",
-          "React components have lifecycle events that fall into State/Property Updates",
-          "React can be used with any other framework (Backbone.js, Angular.js) as it is only a view layer"
-        ],
-        "correctAnswer": [1, 2, 4],
-        "messageForCorrectAnswer": "Correct answer. Good job.",
-        "messageForIncorrectAnswer": "Incorrect answer. Please try again.",
-        "explanation": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+        "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+        "explanation": "Esta foto é de um Grupo de vaqueanos (milícia armada privada) que defendia madeireira de ataques de revoltosos na Guerra do Contestado.",
         "point": "20"
       },
     ]
