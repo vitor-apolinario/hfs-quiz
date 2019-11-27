@@ -1,4 +1,14 @@
 export const quiz =  {
+"appLocale": {
+  "landingHeaderText": "<questionLength> Perguntas",
+  "question": "Pergunta",
+  "startQuizBtn": "Iniciar Quiz",
+  "resultFilterAll": "Todos",
+  "resultFilterCorrect": "Correto",
+  "resultFilterIncorrect": "Incorreto",
+  "nextQuestionBtn": "Proxima",
+  "resultPageHeaderText": "Você completou o Quiz. Você acertou <correctIndexLength> de <questionLength> perguntas."
+} ,
   "quizTitle": "Guerra do Contestado - Quiz",
   "quizSynopsis": "A Guerra do Contestado foi um conflito armado que envolveu posseiros e pequenos proprietários de terras, de um lado, e representantes dos poderes estadual e federal brasileiro, de outro, entre outubro de 1912 e agosto de 1916",
   "questions": [
@@ -98,5 +108,68 @@ export const quiz =  {
       "explanation": "Trandicionalmente catarinenses tem o costume de comer alimentos vindos do milho, abóbora e porco e beber o chimarrão com erva-mate",
       "point": "20"
     },
+    {
+      "question": "A construção da ferrovia que ligou São Paulo ao rio Grande do sul foi realizada pela empresa “Brazil Railway Company”. Esta ferrovia foi inaugurada em 1910, sua construção cortou a floresta e marcou profundamente a região. \n\nQuem seriam os beneficiados por esta ferrovia?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "Colonos",
+        "Indígenas",
+        "A Colonizadora",
+        "Caboclos"
+      ],
+      "correctAnswer": [1, 3],
+      "messageForCorrectAnswer": "Isso aí!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "Durante o processo de construção da ferrovia, a colonizadora recebeu muitas terras, as quais geralmente explorava a madeira e vendia para os colonos. Os colonos por sua vez, produziam e escoavam seus produtos agrícolas.",
+      "point": "20"
+    },
+    {
+      "question": "A ferrovia que ligou o sul ao centro do país foi muito importante para a integração da economia, influenciando projetos como imigração, colonização e  a ________ que teve um impacto ambiental muito grande. \n\nPreencha a lacuna (espaço) com a alternativa correta:",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Atividade agrícola",
+        "Atividade pecuária",
+        "Extração da madeira",
+        "Construção de represas"
+      ],
+      "correctAnswer": 3,
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "A capacidade de transporte da ferrovia permitiu que fossem construídas grandes serrarias e madeireiras na região, onde haviam muitos pinheiros, que garantiram matéria-prima para muitos anos. O pinheiro foi tão explorado que hoje são necessárias leis para proteger está árvore de nossa região.",
+      "point": "20"
+    },
+    {
+      "question": "Os monges presentes na região do contestado eram muito influentes entre a população local. Quais eram os motivos de sua fama?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "Milagres e Curas que realizavam",
+        "Previsões que faziam",
+        "O dinheiro que tinham",
+        "As suas habilidades de luta"
+      ],
+      "correctAnswer": [1, 2],
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "Os monges passaram a ser famosos pelos seus milagres e profecias. Eles receitavam remédios, benzian e aconcelhavam as pessoas.",
+      "point": "20"
+    },
+    {
+      "question": "O que aconteceu com o monge José Maria?",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Foi morto na batalha de Irani",
+        "Sumiu na batalha de Irani e nunca mais foi encontrado",
+        "Rendeu-se aos inimigos ao final da guerra",
+      ],
+      "correctAnswer": "1",
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "O monge José Maria morreu na batalha que marcou o início da Guerra do Contestado, a de Irani, no ano de 1912. Seus companheiros acreditavam que José Maria, por ser santo, iria ressuscitar, o que não ocorreu.",
+      "point": "20"
+    }, 
   ]
 }

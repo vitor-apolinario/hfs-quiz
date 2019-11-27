@@ -7,10 +7,14 @@ import Footer from './components/footer/footer'
 
 function App() {
   return (
-    <div className="App">
-      <Header />
-      <Quiz quiz={quiz}/>
-      <Footer />
+    <div className="container d-flex justify-content-center" id="container-home">
+      <div className="App">
+        <Header />
+        <div className="Teste">
+        <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
+        </div>
+        <Footer />
+      </div>
     </div>
   );
 }
