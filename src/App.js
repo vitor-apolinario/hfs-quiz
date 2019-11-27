@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-      <Quiz quiz={quiz}/>
+      <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
     </div>
   );
 }
