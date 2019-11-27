@@ -13,7 +13,6 @@ function App() {
         <div className="Teste">
         <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
         </div>
-        <Footer />
       </div>
     </div>
   );

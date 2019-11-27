@@ -45,22 +45,6 @@ export const quiz =  {
       "point": "20"
     },
     {
-      "question": "Qual dessas imagens é sobre/da Guerra do Contestado?",
-      "questionType": "photo",
-      "answerSelectionType": "single",
-      "answers": [
-        "https://www12.senado.leg.br/noticias/materias/2016/07/01/ha-100-anos-o-fim-da-sangrenta-guerra-do-contestado/imagem_materia.jpg/@@images/image/imagem_materia",
-        "https://www.sohistoria.com.br/ef2/revolucaofarroupilha/index_clip_image002.jpg",
-        "https://upload.wikimedia.org/wikipedia/commons/f/fa/Canudos_rebels.jpg",
-        "https://historiadobrasil546861720.files.wordpress.com/2017/11/guerra-guaranitica.jpg"
-      ],
-      "correctAnswer": "1",
-      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
-      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
-      "explanation": "Esta foto é de um Grupo de vaqueanos (milícia armada privada) que defendia madeireira de ataques de revoltosos na Guerra do Contestado.",
-      "point": "20"
-    },
-    {
       "question": "A região Contestada tem esse nome por causa da disputa entre dois estados da região Sul do Brasil, a região fica entre 2 rios o Uruguai na direção sul e o Iguaçu ao norte. Qual o nome do estado em que fica a Região do Contestado?",
       "questionType": "text",
       "answerSelectionType": "single",
