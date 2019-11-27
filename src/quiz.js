@@ -98,5 +98,37 @@ export const quiz =  {
       "explanation": "Trandicionalmente catarinenses tem o costume de comer alimentos vindos do milho, abóbora e porco e beber o chimarrão com erva-mate",
       "point": "20"
     },
+    {
+      "question": "A construção da ferrovia que ligou São Paulo ao rio Grande do sul foi realizada pela empresa “Brazil Railway Company”. Esta ferrovia foi inaugurada em 1910, sua construção cortou a floresta e marcou profundamente a região. \n\nQuem seriam os beneficiados por esta ferrovia?",
+      "questionType": "text",
+      "answerSelectionType": "multiple",
+      "answers": [
+        "Colonos",
+        "Indígenas",
+        "A Colonizadora",
+        "Caboclos"
+      ],
+      "correctAnswer": [1, 3],
+      "messageForCorrectAnswer": "Isso aí!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "Durante o processo de construção da ferrovia, a colonizadora recebeu muitas terras, as quais geralmente explorava a madeira e vendia para os colonos. Os colonos por sua vez, produziam e escoavam seus produtos agrícolas.",
+      "point": "20"
+    },
+    {
+      "question": "A ferrovia que ligou o sul ao centro do país foi muito importante para a integração da economia, influenciando projetos como imigração, colonização e  a ________ que teve um impacto ambiental muito grande. \n\nPreencha a lacuna (espaço) com a alternativa correta:",
+      "questionType": "text",
+      "answerSelectionType": "single",
+      "answers": [
+        "Atividade agrícola",
+        "Atividade pecuária",
+        "Extração da madeira",
+        "Construção de represas"
+      ],
+      "correctAnswer": 3,
+      "messageForCorrectAnswer": "Resposta Correta! Bom trabalho!!",
+      "messageForIncorrectAnswer": "Resposta incorreta, tente novamente!",
+      "explanation": "A capacidade de transporte da ferrovia permitiu que fossem construídas grandes serrarias e madeireiras na região, onde haviam muitos pinheiros, que garantiram matéria-prima para muitos anos. O pinheiro foi tão explorado que hoje são necessárias leis para proteger está árvore de nossa região.",
+      "point": "20"
+    },   
   ]
 }
