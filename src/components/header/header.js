@@ -10,7 +10,7 @@ const nav = {
 }
 
 const image = {
-    maxHeight: '150px',
+    maxHeight: '130px',
     width: 'auto'
 }
 

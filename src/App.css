@@ -5,15 +5,19 @@
   border-radius:20px;
   display: flex;
   justify-content: center;
-  background: #000 url('https://miro.medium.com/max/3544/1*3G5dcVnGC3DRZPxm2jVYHw.jpeg');
-  width: 1920px;
-  height: 6000px;
 }
 .Teste{
   background-color: #09d3ac;
   align-items: center;
   position: absolute;
   top: 200px;
+  border:solid 3px;
+  border-radius:20px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
