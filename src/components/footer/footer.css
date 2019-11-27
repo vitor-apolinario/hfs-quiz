@@ -1,0 +1,24 @@
+.container {
+  padding: 1%;
+  background-color: lightgray;
+}
+.title {
+  font-size: larger;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.dev {
+  padding: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.link {
+  font-size: 10pt;
+}
+.img {
+  max-height: 40px;
+  max-width: 40px;
+}

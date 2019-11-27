@@ -3,6 +3,7 @@ import './App.css';
 import Quiz from 'react-quiz-component';
 import { quiz } from './quiz';
 import Header from './components/header/header'
+import Footer from './components/footer/footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <div className="Teste">
         <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
         </div>
+        <Footer />
       </div>
     </div>
   );
