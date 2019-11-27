@@ -5,8 +5,12 @@ import { quiz } from './quiz';
 
 function App() {
   return (
-    <div className="App">
-      <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
+    <div className="container d-flex justify-content-center" id="container-home">
+      <div className="App">
+        <div className="Teste">
+        <Quiz quiz={quiz} showInstantFeedback={true} continueTillCorrect={true} shuffle={true}/>
+        </div>
+      </div>
     </div>
   );
 }

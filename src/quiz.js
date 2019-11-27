@@ -1,4 +1,14 @@
 export const quiz =  {
+  "appLocale": {
+    "landingHeaderText": "<questionLength> Perguntas",
+    "question": "Pergunta",
+    "startQuizBtn": "Iniciar Quiz",
+    "resultFilterAll": "Todos",
+    "resultFilterCorrect": "Correto",
+    "resultFilterIncorrect": "Incorreto",
+    "nextQuestionBtn": "Proxima",
+    "resultPageHeaderText": "Você completou o Quiz. Você acertou <correctIndexLength> de <questionLength> perguntas."
+  } ,
     "quizTitle": "Guerra do Contestado - Quiz",
     "quizSynopsis": "A Guerra do Contestado foi um conflito armado que envolveu posseiros e pequenos proprietários de terras, de um lado, e representantes dos poderes estadual e federal brasileiro, de outro, entre outubro de 1912 e agosto de 1916",
     "questions": [
@@ -51,4 +61,5 @@ export const quiz =  {
         "point": "20"
       },
     ]
+    
   } 

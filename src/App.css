@@ -1,5 +1,19 @@
 .App {
   text-align: center;
+  align-items: center;
+  border:solid 3px;
+  border-radius:20px;
+  display: flex;
+  justify-content: center;
+  background: #000 url('https://miro.medium.com/max/3544/1*3G5dcVnGC3DRZPxm2jVYHw.jpeg');
+  width: 1920px;
+  height: 6000px;
+}
+.Teste{
+  background-color: #09d3ac;
+  align-items: center;
+  position: absolute;
+  top: 200px;
 }
 
 .App-logo {
